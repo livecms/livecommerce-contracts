@@ -1,0 +1,22 @@
+{
+    "name": "livecommerce/contracts",
+    "description": "LiveCommerce Modul Contracts",
+    "homepage": "https://github.com/livecms/livecommerce-contracts",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mokhamad Rofiudin",
+            "email": "mokh.rofiudin@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "laravel/framework": "5.2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "LiveCommerce\\Contracts\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
